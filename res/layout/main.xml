@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  android:id="@+id/widget28"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">	
+	<Button 
+	  android:text="Obtener" 
+	  android:id="@+id/btnPic" 
+	  android:layout_width="wrap_content" 
+	  android:layout_height="wrap_content" 
+	  android:layout_alignParentRight="true">
+	</Button>
+	<RadioGroup
+	  android:id="@+id/rgrp01"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:orientation="vertical"
+	  android:layout_alignParentTop="true"
+	  android:layout_alignParentLeft="true">
+		<RadioButton
+		  android:id="@+id/radbtnThumb"
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  android:text="Tomar Vista previa">
+		</RadioButton>
+		<RadioButton
+		  android:id="@+id/radbtnFull"
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  android:text="Tomar Imagen Completa">
+		</RadioButton>
+		<RadioButton
+		  android:id="@+id/radbtnGall"
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  android:text="Obtener de la galería">
+		</RadioButton>		
+	</RadioGroup>	
+	<ImageView 
+	  android:layout_width="wrap_content"  
+	  android:layout_below="@+id/rgrp01"
+	  android:layout_height="wrap_content" 	  
+	  android:id="@+id/imgView">
+	</ImageView>  
+</RelativeLayout>
